@@ -1,0 +1,17 @@
+# Ground Truth Project — photo evidence
+# The build FAILS if any row here is missing a caption or alt text, or if the
+# file named in `file` is not sitting in data/photos/.
+#
+# photo_id    PH-001, PH-002 ... unique
+# file        file name inside data/photos/ — export at most 1200 px on the
+#             longest edge, under 250 kB each (see docs/method-note.md)
+# place_id    must match places.csv
+# taken_at    YYYY-MM-DD, the day you took it
+# caption_en/ caption_bn   the line a reader sees under the photo
+# alt_en/alt_bn            what a screen reader says instead of the photo.
+#             Describe what is visible ("Eight people bunched at a closed
+#             shutter"), never "image of queue".
+# subject     queue | counter | sign | empty_spot | other
+# consent_ok  yes if nobody identifiable is visible OR everyone visible agreed.
+#             If a face or a number plate is readable, blur it before adding.
+photo_id,file,place_id,taken_at,caption_en,caption_bn,alt_en,alt_bn,subject,consent_ok

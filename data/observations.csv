@@ -1,0 +1,22 @@
+# Ground Truth Project — raw field observations
+# One row = one waiting episode you personally stood in or watched.
+# Your site is generated from this file: change a number here, rebuild, and
+# every chart, sentence and summary on the site changes with it.
+#
+# id              your own label, OBS-001, OBS-002 ... unique, never renumbered
+# date            YYYY-MM-DD, the day you stood there
+# time_start      HH:MM (24-hour) when you started watching this queue
+# time_end        HH:MM when the person you were following reached the counter
+# place_id        must match a place_id in places.csv
+# queue_length    how many people were waiting when you started
+# people_ahead    how many people were in front of the person you followed
+# wait_minutes    that person's wait in minutes (time_end - time_start is fine)
+# timing_method   stopwatch | estimate | self_report
+# walked_away     yes/no, did anyone in this queue give up and leave
+# day_part        morning | afternoon | evening | night (blank = worked out from time_start)
+# weather         your own words, e.g. rain, sun, hot
+# evidence_photo_id  PH-00x from photos.csv, blank if no photo backs up this row
+# observer        your name
+# notes           one line of what you saw. No names, no phone numbers, no
+#                 details that identify a private person.
+id,date,time_start,time_end,place_id,queue_length,people_ahead,wait_minutes,timing_method,walked_away,day_part,weather,evidence_photo_id,observer,notes

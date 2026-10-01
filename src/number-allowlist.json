@@ -1,0 +1,8 @@
+{
+  "_note": "Content keys that are allowed to contain digits. Only definitions belong here, never measurements: 'the slowest 10%' and 'A4 paper' are definitions, '7 minutes' is a measurement and must come from a {{stat:...}} token so it can be traced back to a row. Every entry here is printed by py tools/check.py, so nothing can hide in this list.",
+  "keys": [
+    "labels.p90",
+    "action.print_body",
+    "pages.summary.description"
+  ]
+}

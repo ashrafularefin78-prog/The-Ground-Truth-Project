@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Unpublished originals: full-resolution photos and the raw interview recording or
+# notes stay on this machine. The web-sized copies that the site uses live in
+# data/photos/ and ARE committed, because the raw evidence is part of the hand-in.
+raw/originals/
+raw/interview-notes/
+
+# Local preview leftovers
+/tmp/
+*.log

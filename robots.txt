@@ -1,0 +1,6 @@
+# The site is meant to be found; the paperwork is not.
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /src/
+Disallow: /tools/

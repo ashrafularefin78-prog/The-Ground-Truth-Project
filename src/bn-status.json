@@ -1,0 +1,6 @@
+{
+  "_note": "Bangla has to be read and owned by you, not by a machine, so the build keeps track of whether you have gone through it. Every Bangla string is listed with its English gloss in docs/bangla-review.md, which the build regenerates. Check them off, then set reviewed_all to true and put your own name in reviewer. Until then, the Bangla pages carry a short note saying the wording is still being reviewed, and py tools/check.py --publish refuses to pass.",
+  "reviewer": "",
+  "reviewed_all": false,
+  "notes": ""
+}

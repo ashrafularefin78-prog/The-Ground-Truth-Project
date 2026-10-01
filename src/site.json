@@ -1,0 +1,22 @@
+{
+  "student_name": "",
+  "student_id": "",
+  "course": "",
+  "institution": "",
+  "problem_title_en": "",
+  "problem_title_bn": "",
+  "site_url": "",
+  "repo_url": "",
+  "contact_email": "",
+  "location_label_en": "",
+  "location_label_bn": "",
+  "hero_photo_file": "",
+  "target_observations": 20,
+  "target_photos": 8,
+  "slow_wait_minutes": 15,
+  "bucket_width_minutes": 5,
+  "headline_min_place_n": 3,
+  "timezone": "Asia/Dhaka",
+  "data_collection_start": "",
+  "data_collection_end": ""
+}

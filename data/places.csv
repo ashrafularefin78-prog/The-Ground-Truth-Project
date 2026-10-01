@@ -1,0 +1,11 @@
+# Ground Truth Project — places you measured
+# These become the labelled nodes on the map page and the labels on every chart.
+#
+# place_id        short lowercase id, used by observations.csv (e.g. canteen-a)
+# name_en/name_bn what the place is called, in each language
+# diagram_x       0-100, left to right, position of this place on the map diagram
+# diagram_y       0-100, top to bottom, same diagram. The diagram is a plan
+#                 drawing of the queue area, not a scaled map.
+# description_en/description_bn  one line: what the queue is for
+# lat, lon        optional, decimal degrees, shown in the pin table if filled
+place_id,name_en,name_bn,diagram_x,diagram_y,description_en,description_bn,lat,lon
